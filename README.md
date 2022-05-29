@@ -13,23 +13,22 @@ Prison Management System Using OOP Concepts
 * Username: Aqsa   ,Password: 23456
 
 
-Description:
+### Description:
 
-This program stores, shows, edits data of prisoners. It has a initial login module which only proceeds by the user/pass entered below
-Procedure to add new accounts and change passwords of current accounts have been explained at the end of README File
+* This program stores, shows, edits data of prisoners. It has a initial login module which only proceeds by the user/pass entered below
+* Procedure to add new accounts and change passwords of current accounts have been explained at the end of README File
 
 
-Usage and Cautions:
+### Usage and Cautions:
 
-Firsty the login page appears. If 3 incorrect tries are attempted, the program terminates.
-After login, The user selects data from a menu driven interface. Caution: If incorrect or out of scope option is selected, the program asks to return to the menu. If not returned by typing 1,
-the program terminates.
+* Firsty the login page appears. If 3 incorrect tries are attempted, the program terminates.
+* After login, The user selects data from a menu driven interface. Caution: If incorrect or out of scope option is selected, the program asks to return to the menu. If not returned by typing 1, the program terminates.
 
-Next, Prisoner Data is entered. Caution: If input data is out of scope/incorrect, the program terminates.
+* Next, Prisoner Data is entered. Caution: If input data is out of scope/incorrect, the program terminates.
 
-Once data has been entered. We can preview previous entries, edit them, mark monthly attendance, release prisoners etc.
+* Once data has been entered. We can preview previous entries, edit them, mark monthly attendance, release prisoners etc.
 
-Once you are done with the data entry, Logout or Exit from the program.
+* Once you are done with the data entry, Logout or Exit from the program.
 
 
 *************************************************************************************************************
