@@ -5,12 +5,11 @@ Prison Management System Using OOP Concepts
 ## Project By Hamza Umer Farooq(200789) & Haroon Abdullah(201893)   
 *********************************************************************************************************************************
 
-Login Module:
-
-Username: Hamza , Password: 200789
-Username: Haroon, Password: 201893
-Username: Jawad , Password: 12345
-USername: Aqsa   ,Password: 23456
+## Login Module:
+* Username: Hamza , Password: 200789
+* Username: Haroon, Password: 201893
+* Username: Jawad , Password: 12345
+* Username: Aqsa   ,Password: 23456
 
 
 Description:
