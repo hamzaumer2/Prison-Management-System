@@ -2,15 +2,6 @@
 Prison Management System Using OOP Concepts
 
 
-██████╗░██████╗░██╗░██████╗░█████╗░███╗░░██╗  ███╗░░░███╗░█████╗░███╗░░██╗░█████╗░░██████╗░███████╗███╗░░░███╗███████╗███╗░░██╗████████╗  ░██████╗██╗░░░██╗░██████╗████████╗███████╗███╗░░░███╗
-██╔══██╗██╔══██╗██║██╔════╝██╔══██╗████╗░██║  ████╗░████║██╔══██╗████╗░██║██╔══██╗██╔════╝░██╔════╝████╗░████║██╔════╝████╗░██║╚══██╔══╝  ██╔════╝╚██╗░██╔╝██╔════╝╚══██╔══╝██╔════╝████╗░████║
-██████╔╝██████╔╝██║╚█████╗░██║░░██║██╔██╗██║  ██╔████╔██║███████║██╔██╗██║███████║██║░░██╗░█████╗░░██╔████╔██║█████╗░░██╔██╗██║░░░██║░░░  ╚█████╗░░╚████╔╝░╚█████╗░░░░██║░░░█████╗░░██╔████╔██║
-██╔═══╝░██╔══██╗██║░╚═══██╗██║░░██║██║╚████║  ██║╚██╔╝██║██╔══██║██║╚████║██╔══██║██║░░╚██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░██║╚████║░░░██║░░░  ░╚═══██╗░░╚██╔╝░░░╚═══██╗░░░██║░░░██╔══╝░░██║╚██╔╝██║
-██║░░░░░██║░░██║██║██████╔╝╚█████╔╝██║░╚███║  ██║░╚═╝░██║██║░░██║██║░╚███║██║░░██║╚██████╔╝███████╗██║░╚═╝░██║███████╗██║░╚███║░░░██║░░░  ██████╔╝░░░██║░░░██████╔╝░░░██║░░░███████╗██║░╚═╝░██║
-╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═════╝░░╚════╝░╚═╝░░╚══╝  ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝░╚═════╝░╚══════╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░░░░╚═╝
-
-
-
 *************************************************************************************************************************
 ## Project By Hamza Umer Farooq(200789) & Haroon Abdullah(201893)   
 *********************************************************************************************************************************
@@ -42,45 +33,45 @@ Once you are done with the data entry, Logout or Exit from the program.
 
 
 *************************************************************************************************************
-## Project Made for Dr.Jawad Manzoor and Madam Aqsa Akbar
-*****************************************************************************************************************
 
-******************************************************************************************************************************
+## Project Made for Dr.Jawad Manzoor and Madam Aqsa Akbar
+
 
 *****************************************************************************************************************************   
-NOT FOR FRONT END USER!! ONLY TRY THIS IF EXPERTISE IN PROGRAMMING   
-FOR EDITING PURPOSES ONLY   
+### NOT FOR FRONT END USER!! ONLY TRY THIS IF EXPERTISE IN PROGRAMMING   
+### FOR EDITING PURPOSES ONLY   
 ***********************************************************************************************************************************
 
 
-Changing Username/Password:
- 
-To Change the password. Go to void Prison::Login(), line 117 or 129 and change the passowrd in "strcmp(Username, "X")", X is the current/new Username
-To Change the password. Go to void Prison::Login(), line 117 or 129 and change the passowrd in "strcmp(Password, "Y")", Y is the current/new Password
-
-Don't forget to save the program and compile it after changing Username/Password
+### Changing Username/Password:
+* To Change the password. Go to void Prison::Login(), line 117 or 129 and change the passowrd in "strcmp(Username, "X")", X is the current/new Username
+* To Change the password. Go to void Prison::Login(), line 117 or 129 and change the passowrd in "strcmp(Password, "Y")", Y is the current/new Password
 
 
-Create New Login Profile:
+#### Don't forget to save the program and compile it after changing Username/Password
+
+
+### Create New Login Profile:
 
 If New User for login is to be added insert the following in LINE 142
 
-else if(strcmp(Username, "X") == 0 && strcmp(Password, "Y") == 0)
-        {
-        	cout << "\n\n";
-            cout << "\t\t\t\t";
-            cout << "You are accessed to the system!\n\n";
-            cout << "\t\t\t\t";
-            system("pause");
-            system("cls");
-            true1 = 0;
-            try1 = 4;
-            Prison::Afterlogin();
-		}
+	else if(strcmp(Username, "X") == 0 && strcmp(Password, "Y") == 0)
+        	{
+        		cout << "\n\n";
+            		cout << "\t\t\t\t";
+            		cout << "You are accessed to the system!\n\n";
+            		cout << "\t\t\t\t";
+            		system("pause");
+            		system("cls");
+            		true1 = 0;
+            		try1 = 4;
+            		Prison::Afterlogin();
+				}
 
-X and Y can be replaced by own Username and Password respectively
 
-Don't forget to save the program and compile it after adding a new user
+* X and Y can be replaced by own Username and Password respectively
+
+### Don't forget to save the program and compile it after adding a new user
 
 ******************************************************************************************************************************
 ## A Project Of Object Oriented Programming, 2nd Semester in Air University, Islamabad 
